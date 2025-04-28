@@ -15,6 +15,7 @@ const (
 	ModelGPT35      Model = "gpt-3.5-turbo"
 	ModelGPT4       Model = "gpt-4"
 	ModelEmbeddings Model = "text-embedding-ada-002"
+	ModelGPT4o      Model = "gpt-4o"
 )
 
 type ChatCompletionsRequest struct {

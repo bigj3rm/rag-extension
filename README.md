@@ -15,6 +15,14 @@ export CLIENT_SECRET="your_client_secret" // generate a new client secret for yo
 export FQDN=https://6de513480979.ngrok.app // use ngrok to expose a url
 ```
 
+```
+PowerShell
+$env:PORT = "3000" // port number
+$env:CLIENT_ID = "***" // client id from github copilot app
+$env:CLIENT_SECRET = "***" // client secret from github copilot app
+$env:FQDN = "https://fb9a-104-208-240-226.ngrok-free.app" // ngrok local host url or actual url
+```
+
 ## Installation:
 1. Clone the repository: 
 
