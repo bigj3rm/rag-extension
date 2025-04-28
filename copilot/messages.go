@@ -16,6 +16,7 @@ const (
 	ModelGPT4       Model = "gpt-4"
 	ModelEmbeddings Model = "text-embedding-ada-002"
 	ModelGPT4o      Model = "gpt-4o"
+	ModelGPT41      Model = "gpt-4.1-2025-04-14"
 )
 
 type ChatCompletionsRequest struct {
